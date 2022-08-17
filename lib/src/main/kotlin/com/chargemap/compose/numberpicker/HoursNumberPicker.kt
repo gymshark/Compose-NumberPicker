@@ -95,7 +95,6 @@ fun FullHoursNumberPicker(
         verticalAlignment = Alignment.CenterVertically,
     ) {
         NumberPicker(
-            modifier = Modifier.weight(1f),
             label = {
                 "${if (leadingZero && abs(it) < 10) "0" else ""}$it"
             },
@@ -111,7 +110,6 @@ fun FullHoursNumberPicker(
         hoursDivider?.invoke()
 
         NumberPicker(
-            modifier = Modifier.weight(1f),
             label = {
                 "${if (leadingZero && abs(it) < 10) "0" else ""}$it"
             },
@@ -146,7 +144,6 @@ fun AMPMHoursNumberPicker(
         verticalAlignment = Alignment.CenterVertically,
     ) {
         NumberPicker(
-            modifier = Modifier.weight(1f),
             value = value.hours,
             label = {
                 "${if (leadingZero && abs(it) < 10) "0" else ""}$it"
@@ -162,7 +159,6 @@ fun AMPMHoursNumberPicker(
         hoursDivider?.invoke()
 
         NumberPicker(
-            modifier = Modifier.weight(1f),
             label = {
                 "${if (leadingZero && abs(it) < 10) "0" else ""}$it"
             },

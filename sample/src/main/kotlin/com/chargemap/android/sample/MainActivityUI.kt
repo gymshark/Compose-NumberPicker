@@ -26,24 +26,20 @@ fun MainActivityUI() {
             }
         ) {
             Column(
+                verticalArrangement = Arrangement.spacedBy(16.dp),
                 modifier = Modifier
                     .fillMaxWidth()
+                    .padding(horizontal = 16.dp)
                     .verticalScroll(scrollState)
             ) {
-                Column(
-                    Modifier
-                        .fillMaxWidth()
-                        .padding(16.dp)
-                ) {
-                    NumberPicker()
-                    HoursNumberPicker1()
-                    HoursNumberPicker2()
-                    HoursNumberPicker3()
-                    HoursNumberPicker4()
-                    DoublesPicker()
-                    FruitPicker()
-                    IntRangePicker()
-                }
+                NumberPicker()
+                HoursNumberPicker1()
+                HoursNumberPicker2()
+                HoursNumberPicker3()
+                HoursNumberPicker4()
+                DoublesPicker()
+                FruitPicker()
+                IntRangePicker()
             }
         }
     }
