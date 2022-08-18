@@ -11,7 +11,7 @@ Android library providing a Number Picker for Jetpack Compose.
 
 ## Showcase
 
-<img src="art/showcase.gif" width="250"/>
+<img src="art/gs_number_picker_demo.gif" width="300"/>
 
 ## Installation
 
