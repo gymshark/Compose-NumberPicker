@@ -11,7 +11,7 @@ Android library providing a Number Picker for Jetpack Compose.
 
 ## Showcase
 
-<img src="art/showcase.gif" width="250"/>
+<img src="art/gs_number_picker_demo.gif" width="300"/>
 
 ## Installation
 
@@ -19,7 +19,7 @@ In your **module** *build.gradle* :
 
 ```
 dependencies {
-  implementation "com.chargemap.compose:numberpicker:latestVersion"
+  implementation "com.gymshark.compose:numberpicker:latestVersion"
 }
 ```
 
@@ -34,7 +34,7 @@ var pickerValue by remember { mutableStateOf(0) }
 
 NumberPicker(
     value = pickerValue,
-    range = 0..10,
+    range = 0..5,
     onValueChange = {
         pickerValue = it
     }
