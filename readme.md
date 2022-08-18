@@ -34,7 +34,7 @@ var pickerValue by remember { mutableStateOf(0) }
 
 NumberPicker(
     value = pickerValue,
-    range = 0..10,
+    range = 0..5,
     onValueChange = {
         pickerValue = it
     }
