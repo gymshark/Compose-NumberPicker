@@ -19,7 +19,7 @@ In your **module** *build.gradle* :
 
 ```
 dependencies {
-  implementation "com.chargemap.compose:numberpicker:latestVersion"
+  implementation "com.gymshark.compose:numberpicker:latestVersion"
 }
 ```
 
